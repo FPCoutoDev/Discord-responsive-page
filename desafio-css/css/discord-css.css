@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Luckiest+Guy&family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    height: 505px;
+    background-image: url('../img/Header-Background.png');
+    color: white;
+    width: 100%
+}
+.title {
+    padding: 50px 30px 5px 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.title h1 {
+font-family: Luckiest Guy;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+width: 220px;
+}
+.buttons {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.buttons button{
+    padding: 10px 40px;
+    width: 90vw;
+    height: 54px;
+    border-radius: 28px;
+    font-size: 4vw;
+    border: none;
+}
+#black {
+    background-color: #23272A;
+    color: white;
+}
+/* fim do header */
+
+.main {
+    padding: 40px 40px 40px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main img {
+    width: 379px;
+    height: 252px;
+}
+.paragraph h2{
+    font-size: 24px;
+}
+.paragraph p {
+    font-size: 16px;
+}
+#grey {
+    background-color: #F1F1F1;
+}
+#title {
+    background-color: #F1F1F1;
+}
+#title h1 {
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    }
+/* fim do header */
+
+
+/* fim do header */
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+footer img {
+    height: 20px;
+}
+
+
+
+@media screen and (min-width: 496px) {
+    header {
+        height: 505px;
+        background-image: url('../img/HeaderBackground.png');
+        background-size: cover;
+        color: white;
+        width: 100%;
+    }
+    .title {
+        padding: 50px 30px 010px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    
+    .title h1 {
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .title p {
+        width: 757px;
+        height: 66px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        line-height: 20px;
+
+    }
+    .buttons {
+        gap: 17px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .buttons button{
+        padding: 10px 40px;
+        width: auto;
+        height: 44px;
+        border-radius: 28px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    .main {
+        padding: 40px 40px 40px 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .main img {
+        width: 607px;
+        height: 394px;
+    }
+
+    .paragraph h2{
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 10;
+        width: 329px;
+        
+    }
+    .paragraph p {
+        font-size: 16px;
+        width: 348px;
+
+    }
+    #grey {
+        background-color: #F1F1F1;
+    }
+    #title {
+        background-color: #F1F1F1;
+        flex-direction: column;
+    }
+    #title h1 {
+        font-family: Luckiest Guy;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 608px;
+        text-align: center;
+        }
+    #title p {
+        font-size: 16px;
+        width: 802px;
+        text-align: center;
+        letter-spacing: 0px;
+    }
+    footer {
+        background-color: #23272A;
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    footer img {
+        height: 40px;
+    }
+    
+
+}
