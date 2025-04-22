@@ -6,6 +6,7 @@ body {
 }
 header {
     height: 505px;
+    width: 100%;
     background-image: url('../img/Header-Background.png');
     color: white;
     width: 100%
@@ -172,14 +173,13 @@ footer img {
         width: 348px;
 
     }
-    #grey {
+    .main:nth-child(even) {
         background-color: #F1F1F1;
     }
-    #title {
-        background-color: #F1F1F1;
+    .main:last-of-type  {
         flex-direction: column;
     }
-    #title h1 {
+    .main:last-of-type h1 {
         font-family: Luckiest Guy;
         font-weight: 400;
         font-size: 40px;
@@ -188,7 +188,7 @@ footer img {
         width: 608px;
         text-align: center;
         }
-    #title p {
+    .main:last-of-type  p {
         font-size: 16px;
         width: 802px;
         text-align: center;
